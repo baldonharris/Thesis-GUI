@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{c094b90e-e86c-4849-98fa-e148b5b96ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Header">
+      <UniqueIdentifier>{93d13ac2-a88b-4d97-b3b7-3b46bfbe0044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Source">
+      <UniqueIdentifier>{1d5d0443-041e-4f5d-be35-7d4acbebee39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SMART_RM.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SMART_RM.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_mnge_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_view_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\HOME_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_logout_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_settings_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_help_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\btn_home_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\VIEW.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\INDEX.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\HOME.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\img\main_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_help_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_mnge_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_view_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_logout_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_settings_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_home_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\VIEW.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\HOME.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\INDEX.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\main_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\login_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\enter.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_manual_sw.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_edit_schedules.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_setup_room.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\Harris Baldon\Downloads\Green-Engery-2400px.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_consumption.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_manage_sched.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_manage_room.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_view.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_manage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_manual.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_room.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_sched.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img\btn_thumb_add.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SMART_RM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMART_RMDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManulSwDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSchedDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddModuleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorListCtrl.h">
+      <Filter>Dependencies\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Thesis.h">
+      <Filter>Dependencies\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentStatic.h">
+      <Filter>Dependencies\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsumptionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSchedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HostDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentStaticWhite.h">
+      <Filter>Dependencies\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SMART_RM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMART_RMDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManulSwDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSchedDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddModuleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorListCtrl.cpp">
+      <Filter>Dependencies\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Thesis.cpp">
+      <Filter>Dependencies\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentStatic.cpp">
+      <Filter>Dependencies\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsumptionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSchedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HostDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentStaticWhite.cpp">
+      <Filter>Dependencies\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SMART_RM.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

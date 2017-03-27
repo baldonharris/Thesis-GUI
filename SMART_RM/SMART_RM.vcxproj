@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A3BE8B9-E88E-45D6-A580-29D1E49198DF}</ProjectGuid>
+    <RootNamespace>SMART_RM</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Harris Baldon\Desktop\THESIS\SMART_RM_2\SMART_RM\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Harris Baldon\Desktop\THESIS\SMART_RM_2\SMART_RM\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\SMRT\SMART_RM\SMART_RM\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SMRT\SMART_RM\SMART_RM\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\img\bitmap1.bmp" />
+    <None Include="..\..\img\btn_help_img.bmp" />
+    <None Include="..\..\img\btn_home_img.bmp" />
+    <None Include="..\..\img\btn_logout_img.bmp" />
+    <None Include="..\..\img\btn_mnge_img.bmp" />
+    <None Include="..\..\img\btn_settings_img.bmp" />
+    <None Include="..\..\img\btn_view_img.bmp" />
+    <None Include="..\..\img\HOME.bmp" />
+    <None Include="..\..\img\HOME_img.bmp" />
+    <None Include="..\..\img\INDEX.bmp" />
+    <None Include="..\..\img\main_bg.bmp" />
+    <None Include="..\..\img\VIEW.bmp" />
+    <None Include="C:\Users\Harris Baldon\Downloads\Green-Engery-2400px.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\img\bitmap2.bmp" />
+    <None Include="res\img\btn_consumption.bmp" />
+    <None Include="res\img\btn_edit_schedules.bmp" />
+    <None Include="res\img\btn_help_img.bmp" />
+    <None Include="res\img\btn_home_img.bmp" />
+    <None Include="res\img\btn_logout_img.bmp" />
+    <None Include="res\img\btn_manage_room.bmp" />
+    <None Include="res\img\btn_manage_sched.bmp" />
+    <None Include="res\img\btn_manual_sw.bmp" />
+    <None Include="res\img\btn_mnge_img.bmp" />
+    <None Include="res\img\btn_settings_img.bmp" />
+    <None Include="res\img\btn_setup_room.bmp" />
+    <None Include="res\img\btn_thumb_add.bmp" />
+    <None Include="res\img\btn_thumb_manage.bmp" />
+    <None Include="res\img\btn_thumb_manual.bmp" />
+    <None Include="res\img\btn_thumb_room.bmp" />
+    <None Include="res\img\btn_thumb_sched.bmp" />
+    <None Include="res\img\btn_thumb_view.bmp" />
+    <None Include="res\img\btn_view_img.bmp" />
+    <None Include="res\img\enter.bmp" />
+    <None Include="res\img\HOME.bmp" />
+    <None Include="res\img\INDEX.bmp" />
+    <None Include="res\img\login_bg.bmp" />
+    <None Include="res\img\main_bg.bmp" />
+    <None Include="res\img\VIEW.bmp" />
+    <None Include="res\SMART_RM.ico" />
+    <None Include="res\SMART_RM.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="AddModuleDlg.h" />
+    <ClInclude Include="ColorListCtrl.h" />
+    <ClInclude Include="ConfigDlg.h" />
+    <ClInclude Include="ConsumptionDlg.h" />
+    <ClInclude Include="EditSchedDlg.h" />
+    <ClInclude Include="EditSchedule.h" />
+    <ClInclude Include="explorer1.h" />
+    <ClInclude Include="globalvar.h" />
+    <ClInclude Include="HostDlg.h" />
+    <ClInclude Include="ManulSwDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SMART_RM.h" />
+    <ClInclude Include="SMART_RMDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Thesis.h" />
+    <ClInclude Include="TransparentStatic.h" />
+    <ClInclude Include="TransparentStaticWhite.h" />
+    <ClInclude Include="ViewPageDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="AddModuleDlg.cpp" />
+    <ClCompile Include="ColorListCtrl.cpp" />
+    <ClCompile Include="ConfigDlg.cpp" />
+    <ClCompile Include="ConsumptionDlg.cpp" />
+    <ClCompile Include="EditSchedDlg.cpp" />
+    <ClCompile Include="EditSchedule.cpp" />
+    <ClCompile Include="explorer1.cpp" />
+    <ClCompile Include="HostDlg.cpp" />
+    <ClCompile Include="ManulSwDlg.cpp" />
+    <ClCompile Include="SMART_RM.cpp" />
+    <ClCompile Include="SMART_RMDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thesis.cpp" />
+    <ClCompile Include="TransparentStatic.cpp" />
+    <ClCompile Include="TransparentStaticWhite.cpp" />
+    <ClCompile Include="ViewPageDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SMART_RM.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SMART_RM.rc" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CExplorer1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,61 @@
+﻿Build started 03/02/2016 6:58:28 PM.
+     1>Project "D:\SMRT\SMART_RM\SMART_RM\SMART_RM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SMART_RM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SMART_RM.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ViewPageDlg.cpp
+         ViewPageDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: 'INT8_MIN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : see previous definition of 'INT8_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: 'INT16_MIN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(146) : see previous definition of 'INT16_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: 'INT32_MIN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(148) : see previous definition of 'INT32_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: 'INT8_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(167) : see previous definition of 'INT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: 'INT16_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(171) : see previous definition of 'INT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: 'INT32_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(176) : see previous definition of 'INT32_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: 'UINT8_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(168) : see previous definition of 'UINT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: 'UINT16_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(173) : see previous definition of 'UINT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: 'UINT32_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(178) : see previous definition of 'UINT32_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(149): warning C4005: 'INT64_MIN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(152) : see previous definition of 'INT64_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(150): warning C4005: 'INT64_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(184) : see previous definition of 'INT64_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(151): warning C4005: 'UINT64_MAX' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(189) : see previous definition of 'UINT64_MAX'
+     1>ViewPageDlg.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPageDlg.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPageDlg.cpp(196): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPageDlg.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPageDlg.cpp(208): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPageDlg.cpp(284): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SMRT\SMART_RM\Release\SMART_RM.exe" /INCREMENTAL:NO /NOLOGO libcurl.lib /MANIFEST /ManifestFile:"Release\SMART_RM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SMRT\SMART_RM\Release\SMART_RM.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SMRT\SMART_RM\Release\SMART_RM.lib" /MACHINE:X86 Release\SMART_RM.res
+         Release\ColorListCtrl.obj
+         Release\SMART_RM.obj
+         Release\SMART_RMDlg.obj
+         Release\stdafx.obj
+         Release\Thesis.obj
+         Release\ViewPageDlg.obj
+         Generating code
+         Finished generating code
+         SMART_RM.vcxproj -> D:\SMRT\SMART_RM\Release\SMART_RM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SMRT\SMART_RM\Release\SMART_RM.exe;#1" /manifest Release\SMART_RM.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\SMART_RM.unsuccessfulbuild".
+         Touching "Release\SMART_RM.lastbuildstate".
+     1>Done Building Project "D:\SMRT\SMART_RM\SMART_RM\SMART_RM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12
